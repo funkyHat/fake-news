@@ -542,7 +542,7 @@
                             id="stream-items-id">
 
                             {% for tweet in tweets %}
-                                {% set content = tweet.real -%}
+                                {% set content = tweet.fake -%}
                             <li class="js-stream-item stream-item stream-item
 " data-item-id="849976743083552769" id="stream-item-tweet-849976743083552769"
                                 data-item-type="tweet">
@@ -783,7 +783,7 @@
                             id="stream-items-id">
 
                             {% for tweet in tweets %}
-                                {% set content = tweet.fake -%}
+                                {% set content = tweet.real -%}
                             <li class="js-stream-item stream-item stream-item
 " data-item-id="849976743083552769" id="stream-item-tweet-849976743083552769"
                                 data-item-type="tweet">
